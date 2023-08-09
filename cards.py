@@ -11,30 +11,43 @@ class Card(object):
 
         if self.value == 0:
             value_name = "Two"
+            
         elif self.value == 1:
             value_name = "Three"
+            
         elif self.value == 2:
             value_name = "Four"
+            
         elif self.value == 3:
             value_name = "Five"
+            
         elif self.value == 4:
             value_name = "Six"
+            
         elif self.value == 5:
             value_name = "Seven"
+            
         elif self.value == 6:
             value_name = "Eight"
+            
         elif self.value == 7:
-            value_name = "Nine"
+            value_name = "Nine"'
+            
         elif self.value == 8:
             value_name = "Ten"
+            
         elif self.value == 9:
             value_name = "Jack"
+
         elif self.value == 10:
             value_name = "Queen"
+            
         elif self.value == 11:
             value_name = "King"
+            
         elif self.value == 12:
             value_name = "Ace"
+            
 
         if self.suit == 0:
             suit_name = "Spades"
